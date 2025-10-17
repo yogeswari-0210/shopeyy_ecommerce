@@ -1,0 +1,137 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+main {
+  display: flex;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(#e2c7e3, #f6ddff, rgb(190, 216, 226));
+  padding: 10px 20px;
+}
+.navdiv {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.brand {
+  color: rgb(227, 49, 87);
+  font-size: 40px;
+  font-weight: bolder;
+}
+.navbar ul {
+  display: flex;
+
+  align-items: center;
+  gap: 30px;
+}
+li {
+  list-style: none;
+  justify-content: space-between;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.profile-icon {
+  width: 30px;
+  height: 30px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: rgb(198, 221, 229);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 250px 250px 250px 250px 200px;
+  row-gap: 20px;
+}
+
+.card:hover {
+  background-color: rgb(191, 209, 210);
+}
+.container {
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.card {
+  width: 147px;
+  height: 240px;
+  background-color: rgb(216, 227, 231);
+  border-radius: 6px;
+
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 2);
+  margin: 20px;
+}
+.card img {
+  width: 100%;
+  height: 60%;
+  border-radius: 10px 10px 0px 0px;
+}
+.content {
+  padding: 14px;
+  text-align: center;
+}
+content h3 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+.content p {
+  color: rgb(14, 34, 11);
+  font-size: 15px;
+}
+.footer {
+  position: fixed;
+  bottom: 0%;
+  text-decoration: none;
+  height: 20px;
+  width: 100%;
+  background: linear-gradient(#e2c7e3, #f6ddff, rgb(190, 216, 226));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  background: linear-gradient(skyblue, pink);
+
+  padding: 2px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  bottom: 40px;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+header a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  border: 2px solid #e8dbe9;
+  background: linear-gradient(#d2a0d3, rgb(103, 172, 200));
+  padding: 3px;
+  border-radius: 8px;
+}
